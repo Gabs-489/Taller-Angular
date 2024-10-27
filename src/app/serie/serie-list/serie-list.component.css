@@ -1,0 +1,33 @@
+#tablaSeries {
+    max-width: 600px;
+    max-height: 300px;
+    table-layout: fixed;
+    margin-left: 20px; 
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.styled-table th,
+.styled-table td {
+    border-bottom: 1px solid rgb(236,236,236);
+    padding: 8px;
+    text-align: left;
+}
+.styled-table thead {
+    border-top: 1px solid rgb(236,236,236);
+}
+
+.single-line {
+    white-space: nowrap;
+}
+
+#referencia{
+    text-decoration: none;
+}
+
+.small-column {
+    width: 25px;
+}

@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <table class="table styled-table" id="tablaSeries"> 
+    <thead >
+        <tr>
+            <th class="small-column">#</th>
+            <th>Name</th>
+            <th>Channel</th>
+            <th>Seasons</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let serie of series">
+        <td class="table-active"> <dd>{{serie.id}}</dd> </td>
+        <td class="table-active"> <a id="referencia" href="" target="_blank">{{serie.name}} </a> </td>
+        <td class="table-active"> <dd>{{serie.channel}}</dd> </td>
+        <td class="table-active"> <dd>{{serie.seasons}}</dd></td>
+      </tr>
+      <p class="single-line">
+        Seasons average: {{temporadasP}}
+      </p>
+    </tbody>
+  </table>
+</div>
