@@ -26,7 +26,7 @@ export class SerieListComponent implements OnInit {
     
   }
 
-  temporadasPromedio(ser:Serie[]):number{
+  temporadasPromedio(ser:Serie[]):number{ 
     let promedio:number = 0;
     for(let serie of ser)
     {
